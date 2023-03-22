@@ -7,6 +7,7 @@ import { HeroDetailComponent } from './Components/hero-detail/hero-detail.compon
 import { LogoApComponent } from './Components/logo-ap/logo-ap.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { HomeComponent } from './Components/logo-ap/home/home.component';
+import { HeaderComponent } from './Components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeComponent } from './Components/logo-ap/home/home.component';
     HeroDetailComponent,
     LogoApComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
